@@ -1,0 +1,201 @@
+html{
+    background-image: url(../css/images/bg1.png);
+}
+
+#heading_title
+{ 
+  padding-top: 1%;
+  color:white;
+  font-size: 150%;
+}
+
+#nav_table
+{
+
+  min-width: 60%;
+  max-width: 100%;
+}
+._scroll_link
+{
+  position: fixed;
+  top : 5px;
+  opacity: 10;
+}
+
+.navigation
+{
+  transition : width .5s ease;
+  width: 0;
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-image: url(../css/images/banner.jpg);
+}
+.navigation a
+{ 
+  font-size: 150%;
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.main-content
+{
+  transition : width .5s ease;
+}
+.nav_ul li span
+{
+ line-height:  70px;
+ word-wrap:break-word;
+ white-space: pre-wrap;
+ width: 100%;
+ padding-top: 20%;
+ padding-bottom: 20%;
+
+}
+
+#nav_table  
+{
+  transition : .5s ease;
+}
+
+.navigation li
+{ 
+  text-align: left;
+  display: table-row;
+  padding-right: 5%;
+  margin-bottom: 20px;
+
+  width: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+
+}
+
+.navigation a
+{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 100%;
+  white-space: pre-wrap;
+
+}
+
+.navigation a:hover
+{
+  color: silver;
+}
+.navigation ul
+{
+  display: table;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.main-content
+{
+   width: 100%;
+   min-width: 80%;
+   float: right;
+}
+#main_nav:target
+{
+   width: 20%;
+}
+#body_header
+{
+   background-image: url(../css/images/bg1.png);
+   width: 100%;
+    float: right;
+}
+.info_list li
+{
+  color: gray;
+  font-size: 180%;
+}
+
+#body_header h1
+{ 
+  text-align: center;
+  font-size: 300%;
+  color: white;
+  text-shadow: 1px 1px 1px gray;
+
+}
+
+#div_in_header
+{
+  background-image: url(../css/images/banner.jpg);
+  border: 10px solid white;
+  margin-top: 2%;
+  margin-bottom:  2%;
+  border-radius: 20px;
+}
+#main_nav:target+.main-content
+{
+  width: 80%;
+  float: right;
+}
+.nav_section td a 
+{
+  font-size: 100%;
+  line-height: 10%;
+}
+
+#information_div
+{
+  display: inline;  
+}
+#information_div h1
+{
+  display: inline-block;
+}
+#nav_table td
+{
+  border-left: 1px solid gray;
+  text-align: center;
+ 
+  border-right: 1px black;
+  background-image: url(../css/images/header.svg);
+}
+#span_ach
+{
+  width: 45%;
+}
+#span_goal
+{
+  width: 45%;
+}
+
+#nav_table td a
+{
+  color: white;
+}
+#nav_table td:hover
+{
+  background: -webkit-linear-gradient(rgba(195,195,195,0.91) 0%, #ffffff 100%);
+ 
+}
+
+#nav_table
+{ 
+ box-shadow: 2px 2px 2px 3px silver;
+}
+#tbl_div
+{
+  width: 100%;
+}
+
+header 
+{
+  float: right;
+  width: 100%;
+  background-image: url(../css/images/header.svg);
+  padding-bottom: 30px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+}
